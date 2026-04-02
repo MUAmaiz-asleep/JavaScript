@@ -28,7 +28,7 @@ let stringNumber = String(someNumber)
 // ******** Types of Operations ********
 
 let value = 3
-let negValue = -value>>
+let negValue = -value;
 // console.log(negValue);
 
 // console.log(2+2);
@@ -42,12 +42,14 @@ let str1 = "hola"
 let str2 = " momo"
 
 let str3 = str1 + str2
-console.log(str3);
+// console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("momo" + 3); - momo string hai isliye same word then 3 
+// console.log(1 + "2"); - 1 is written as 1(number) but 2 is string isliye its written as word not no' 
+// console.log("1" + 2 + 2); - 1 is string so baakhi sab bhi string ban jate
+// console.log(1 + 2 + "2"); - 1 is no' 2 is no' so wo add hote but "2" is string its written as word
+// console.log(1 + "2" + 2); - 1 is no' "2" is string so word thats y last 2 is string too
+// console.log(1 + 2 + "2"+ 3);
 
 // console.log( (3 + 4) * 5 % 3);
 
@@ -59,7 +61,7 @@ let num1, num2, num3
 num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
-++gameCounter;
+gameCounter++;
 // console.log(gameCounter);
 
 // link to study
