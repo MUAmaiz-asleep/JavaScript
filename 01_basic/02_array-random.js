@@ -32,3 +32,14 @@ const another_array = [1,3,4 [5,6,7],6,[6,7[4,5]]]
 
 const real_another_array = another_array.flat(infinity)
 console.log(real_Another_array)
+
+
+console.log(ArrayBuffer.isArray("MOMO"))
+console.log(ArrayBuffer.from("MOMO"))
+console.log(ArrayBuffer.from({name: "MOMO"}))
+
+let score1 = 100
+let score3 = 300
+let score4 = 400
+
+console.log(Array.of(score1, score3, score4));
