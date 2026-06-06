@@ -25,4 +25,10 @@ var isEven = (element) => {
 // console.log(result);
 
 var result = [2, 3, 6, 8].every((e) => (e % 2 === 0));
-console.log(result);
+console.log(result); 
+
+
+const another_array = [1,3,4 [5,6,7],6,[6,7[4,5]]]
+
+const real_another_array = another_array.flat(infinity)
+console.log(real_Another_array)
