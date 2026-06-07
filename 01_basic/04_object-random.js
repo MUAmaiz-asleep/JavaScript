@@ -64,4 +64,4 @@ const users = [
 
 users[1].email
 console.log(tinderUser)
-console.log(Objects.keys(tinderUser))
+console.log(Objects.keys(tinderUser));
