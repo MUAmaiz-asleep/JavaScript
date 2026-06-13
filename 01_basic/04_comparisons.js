@@ -20,3 +20,12 @@
 // for operator === (strict check)
 
 console.log("3" === 3);
+
+
+Copied from above:
+
+// console.log(null > 0);
+// console.log(null < 0);
+// console.log(null == 0); 
+// console.log(null >= 0);
+// console.log(null >+ 0);

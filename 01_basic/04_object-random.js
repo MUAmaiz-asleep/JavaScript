@@ -62,6 +62,52 @@ const users = [
     },
 ]
 
-users[1].email
-console.log(tinderUser)
-console.log(Objects.keys(tinderUser));
+// users[1].email
+// console.log(tinderUser)
+// console.log(Objects.keys(tinderUser));
+// console.log(Objects.values(tinderUser));
+// console.log(Objects.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedin'));
+
+
+const course = {
+    coursename: "js hindi",
+    price: "999",
+    courseInstructor: "m0m0BOT"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// const navbar = ({props.company}) => {
+
+// }
+
+// navbar(company = "m0m0BOt")
+
+
+// {
+//     "name" : "momo",
+//     "coursename" : "js hindi",
+//     "price" : "free"
+// }
+
+Copies from other:
+
+//  console.log("3" > 3);
+// console.log("03" > 5);
+// console.log(null > 0);
+// console.log(null < 0);
+// console.log(null == 0); 
+// console.log(null >= 0);
+// console.log(null >+ 0);
+// console.log(undefined == 0);
+// console.log(undefined > 0);
+// console.log(undefined < 0);
+// for operator === (strict check)
+// console.log("3" === 3);
