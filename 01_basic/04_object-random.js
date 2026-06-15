@@ -110,4 +110,4 @@ Copies from other:
 // console.log(undefined > 0);
 // console.log(undefined < 0);
 // for operator === (strict check)
-// console.log("3" === 3);
+// console.log("3" === 3)

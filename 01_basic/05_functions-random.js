@@ -12,10 +12,9 @@ function addTwoNumbers(number1, number3){
 }
 
 // addTwoNumbers(3, null)
+
 const result = addTwoNumbers(3, 5)
 console.log("Result: ",result)
-
-
 
 function addTwoNumbers(number1, number2){
 
